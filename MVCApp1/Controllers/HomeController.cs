@@ -10,6 +10,11 @@ namespace MVCApp1.Controllers
     {
         public ActionResult Index()
         {
+            IDemo1 demo1 = new InterfaceTest();
+            demo1.GetDetails();
+
+            IDemo2 demo2 = new InterfaceTest();
+            demo2.GetDetails();
             return View();
         }
 
