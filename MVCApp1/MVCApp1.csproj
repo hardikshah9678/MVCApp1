@@ -172,6 +172,10 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="IDemo.cs" />
+    <Compile Include="Memento\CallingMemento.cs" />
+    <Compile Include="Memento\Memento.cs" />
+    <Compile Include="Memento\ProspectMemory.cs" />
+    <Compile Include="Memento\SalesProspect.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

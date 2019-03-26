@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MVCApp1.Memento;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -15,6 +16,8 @@ namespace MVCApp1.Controllers
 
             IDemo2 demo2 = new InterfaceTest();
             demo2.GetDetails();
+            CallingMemento cm = new CallingMemento();
+            cm.MementoWrapper();
             return View();
         }
 
